@@ -1,4 +1,4 @@
-# Automatic Batch Code Printer
+# Automatic Batch Code Printer Controller
 
 This repository contains the design and implementation details for the Automatic Batch Code Printer, developed as part of the EN2160 - Electronic Design Realization course at the University of Moratuwa. The project leverages ATmega microcontrollers, shift registers, and other electronic components to achieve precise and reliable printing on various surfaces.
 
@@ -11,11 +11,12 @@ This repository contains the design and implementation details for the Automatic
 - [Daily Log Entries](#daily-log-entries)
 - [Getting Started](#getting-started)
 - [Contributors](#contributors)
-- [License](#license)
+
 
 ## Introduction
 
 The Automatic Batch Code Printer is designed to generate and print batch codes on multiple surfaces with high precision. It integrates several ATmega microcontrollers that handle tasks such as bit pattern generation, signal processing, pressure control, and surface detection, ensuring high-quality and efficient printing.
+![Print Controller](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/Print%20Controller.jpg)
 
 ### Key Features
 - **High Precision Printing**: Utilizes piezoelectric technology and PWM signals for fine control over ink droplet formation.
@@ -26,18 +27,28 @@ The Automatic Batch Code Printer is designed to generate and print batch codes o
 ## Schematics
 
 Detailed schematics for the entire system, including the main and secondary microcontrollers, power supply, shift registers, and pressure control circuits, are provided. These schematics are crucial for understanding the layout and connections between components.
+![Hierarchical Design](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/main%20block.jpg)
+![Main Circuit](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/Main.jpg)
+![Electric Field](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/Electric%20field.jpg)
+![Pressure Controll Design](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/pressure.jpg)
+
+
 
 ## PCB Design and Assembly
 
 ### PCB Design
 The PCB design for this project was meticulously crafted to ensure signal integrity, power management, and minimal interference. The design process included optimal component placement, routing, and adherence to industry standards.
+![PCB](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/3D%20View%20PCB.png)
 
 ### PCB Assembly
 Photographs of both the bare and soldered PCBs are included, along with evidence of PCB testing to ensure functionality before final assembly.
+![PCB](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/bare%20PCB.png)
 
 ## Enclosure Design
 
 The project also includes a custom-designed enclosure for the batch code printer. The enclosure is designed to house all the critical components securely while providing easy access for maintenance. Detailed design drawings and photographs of the assembled enclosure are available.
+![Enclosure](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/enclosuree.jpg)
+
 
 ## Detailed Programming Information
 
@@ -64,9 +75,10 @@ A detailed log of the project development process is provided, documenting each 
 
 ## Contributors
 
-- **Anjula M.K** (210368V)
-- **Meemanage N.A** (210385U)
+- **Anjula M.K** 
+- **Meemanage N.A** 
+![Group]([https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/enclosuree.jpg](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/Contributors.jpg))
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
