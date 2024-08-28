@@ -76,8 +76,9 @@ A detailed log of the project development process is provided, documenting each 
 ## Contributors
 
 - **Anjula M.K** 
-- **Meemanage N.A** 
-![Group]([https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/enclosuree.jpg](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/Contributors.jpg))
+- **Meemanage N.A**
+  
+![Group](https://github.com/Kehan23/AutomaticBatchCodePrinterController/blob/main/Images/Contributors.jpg)
 
 
 
